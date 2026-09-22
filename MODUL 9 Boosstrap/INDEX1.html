@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafe Saya</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Font Modern -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Kafe Saya</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bagian_produk">Produk</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Promo</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="keranjang.html"><i class="bi bi-cart"></i> Keranjang</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- BANNER -->
+<section class="banner d-flex align-items-center text-center text-light">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Selamat Datang di Kafe Kami</h1>
+        <p class="lead mb-4">Ada banyak makanan & minuman yang bisa dinikmati <br>
+            mau menu apa hari ini?</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="input-group input-group-lg">
+                    <select class="form-select">
+                        <option selected>Pilih Kategori</option>
+                        <option>Makanan Barat</option>
+                        <option>Makanan Timur</option>
+                        <option>Makanan Indonesia</option>
+                    </select>
+                    <button class="btn btn-warning text-light">Telusuri</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROMO -->
+<div > </div>
+<section class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">Promo Spesial</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4 col-lg-3">
+                <div class="card shadow-sm">
+                    <img src="image/product/thumb/chocolate-mousse.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Chocolate Mousse</h5>
+                        <p class="text-muted small">Makanan manis yang lembut dan lezat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="card shadow-sm">
+                    <img src="image/product/thumb/brownies.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Brownies</h5>
+                        <p class="text-muted small">Kue cokelat lembut dan nikmat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <div class="card shadow-sm">
+                    <img src="image/product/thumb/coffee.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold">Kopi</h5>
+                        <p class="text-muted small">Minuman kopi khas dengan cita rasa nikmat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-warning btn-lg mt-4 text-light">Lihat Semua Promo</button>
+    </div>
+</section>
+
+<!-- PRODUK -->
+<section id="bagian_produk" class="menu-favorit py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-5">Menu Favorit</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <img src="image/product/thumb/french-fries.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-warning">Kentang Goreng</h5>
+                        <p class="small text-muted">Crispy dan gurih.</p>
+                        <p class="fw-bold text-warning">Rp 20.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <img src="image/product/thumb/coffee.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-warning">Cappuccino</h5>
+                        <p class="small text-muted">Kopi creamy yang lembut.</p>
+                        <p class="fw-bold text-warning">Rp 18.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <img src="image/product/thumb/steak.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-warning">Steak</h5>
+                        <p class="small text-muted">Daging premium berkualitas.</p>
+                        <p class="fw-bold text-warning">Rp 85.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card border-0 shadow-sm">
+                    <img src="image/product/thumb/tofu-rice.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="fw-bold text-warning">Nasi Tahu</h5>
+                        <p class="small text-muted">Menu sehat dan lezat.</p>
+                        <p class="fw-bold text-warning">Rp 35.000</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="btn btn-warning btn-lg mt-4 text-light">Lihat Menu Lainnya</button>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer text-light py-5">
+    <div class="container text-center">
+        <h5 class="fw-bold">Kafe Saya</h5>
+        <p class="small text-muted">Tempat makan nyaman dan terjangkau untuk semua kalangan.</p>
+        <hr>
+        <p class="small text-muted mb-0">&copy; 2026 Kafe Saya. Hak Cipta Dilindungi.</p>
+    </div>
+</footer>
+
+<script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
